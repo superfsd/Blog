@@ -397,6 +397,7 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
-'node_modules' 
-'.temp' 
-'.cache' 
+node_modules 
+**/.temp
+**/.cache
+**/dist
