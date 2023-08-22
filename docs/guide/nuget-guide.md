@@ -1,7 +1,7 @@
 # 添加私有 Nuget 仓库
 
 ```
-dotnet nuget add source <PACKAGE_SOURCE_PATH>
+dotnet nuget add source <package_source_path>
 ```
 
 # 创建包
@@ -15,7 +15,7 @@ dotnet nuget add source <PACKAGE_SOURCE_PATH>
 ## 基于 dotnet
 
 ```
-dotnet nuget push  package.nupkg  -s https://awase1ipqc81:4001/v3/index.json -k jabil123456
+dotnet nuget push  package.nupkg  -s  <package_source_path>  -k <secret key>
 ```
 
 ## 基于 nuget
@@ -25,5 +25,5 @@ dotnet nuget push  package.nupkg  -s https://awase1ipqc81:4001/v3/index.json -k 
 ## 基于 dotnet
 
 ```
-dotnet nuget delete 包名 版本号 -s https://awase1ipqc81:4001/v3/index.json -k jabil123456
+dotnet nuget delete 包名 版本号 -s <package_source_path> -k <secret key>
 ```
