@@ -12,34 +12,39 @@ export default defineUserConfig({
         link: '/'
       },
       {
-        text: '工具文档',
+        text: '工具',
         children: [
           {
-            text: 'Nuget配置',
-            link: '/guide/nuget'
+            text: 'Nuget',
+            link: '/tools/nuget'
+          }
+        ],
+      },
+      {
+        text: '开发',
+        children: [
+          {
+            text: 'C#',
+            link: '/develop/csharp/conventions'
           }
         ],
       }
     ],
     sidebar: {
-      '/guide/nuget': [
+      '/tools/nuget': [
         {
-          text: '测试',
-          link: '/guide/nuget',
+          text: '操作指南',
+          link: '/tools/nuget',
         },
-        {
-          text: '编码规范',
-          link: '/guide/conventions',
-        }
+        // {
+        //   text: '编码规范',
+        //   link: '/guide/conventions',
+        // }
       ],
-      '/guide/conventions': [
-        {
-          text: '测试',
-          link: '/guide/nuget',
-        },
+      '/develop/csharp/conventions': [
         {
           text: '编码规范',
-          link: '/guide/conventions',
+          link: '/develop/csharp/conventions',
         }
       ]
     }
