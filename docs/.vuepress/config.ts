@@ -6,6 +6,9 @@ export default defineUserConfig({
   description: '个人技术博客',
   base: '/Blog/',
   theme: defaultTheme({
+    lastUpdated: false,
+    contributors: false,
+    sidebarDepth: 2,
     navbar: [
       {
         text: '首页',
@@ -16,7 +19,7 @@ export default defineUserConfig({
         children: [
           {
             text: 'Nuget',
-            link: '/tools/nuget'
+            link: '/Tools/Nuget',
           }
         ],
       },
@@ -25,28 +28,27 @@ export default defineUserConfig({
         children: [
           {
             text: 'C#',
-            link: '/develop/csharp/conventions'
+            link: '/Develop/CSharp/Conventions',
+          },
+          {
+            text: '设计模式',
+            link: '/Develop/DesignPattern',
           }
         ],
       }
     ],
-    sidebar: {
-      '/tools/nuget': [
-        {
-          text: '操作指南',
-          link: '/tools/nuget',
-        },
-        // {
-        //   text: '编码规范',
-        //   link: '/guide/conventions',
-        // }
-      ],
-      '/develop/csharp/conventions': [
-        {
-          text: '编码规范',
-          link: '/develop/csharp/conventions',
-        }
-      ]
-    }
+    // sidebar: {
+    //   '/Tools/Nuget': ['/Tools/Nuget'],
+    //   '/Develop/CSharp/Conventions': ['/Develop/CSharp/Conventions'],
+    //   '/Develop/DesignPattern': [{
+    //     text: '创建型设计模式',
+    //     collapsible: true,
+    //     children: [
+    //       '/Develop/DesignPattern/CreationalDesignPatterns/FactoryDesignPattern',
+    //       '/Develop/DesignPattern/CreationalDesignPatterns/AbstractFactoryDesignPattern'
+    //     ]
+    //   },
+    //   ]
+    // },
   })
 })

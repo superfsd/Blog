@@ -1,6 +1,6 @@
 # 编码规范
 
-## 什么是编码规范 / Coding standards ？
+## 什么是编码规范
 
 - Coding standards are collections of rules and guidelines that determine the programming style, procedures, and methods for a programming language.
 - Think of coding standards as a set of rules, techniques, and best practices to create cleaner, more readable, more efficient code with minimal errors. They offer a uniform format by which software engineers can use to build sophisticated and highly functional code.
@@ -194,7 +194,7 @@ public class TcpProxy
     正例：枚举名字：EState / DealStatusEnum  
     成员名：SUCCESS / UNKOWN_REASON
 
-## 三、布局规范
+## 布局规范
 
 - 使用默认的代码编辑器设置（智能缩进、4 字符缩进、制表符保存为空格）。
 
