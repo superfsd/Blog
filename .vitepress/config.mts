@@ -4,6 +4,7 @@ import sidebar from './sidebar.mts'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/Blog/',
   title: '个人博客',
   description: 'Vitepres构建',
   srcDir: 'docs',
