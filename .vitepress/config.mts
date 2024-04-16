@@ -13,7 +13,7 @@ export default defineConfig({
     search: {
       provider: 'local'
     },
-    nav: nav,
+    nav,
     sidebar: { ...sidebar } as any,
     footer: {
       copyright: '版权所有'

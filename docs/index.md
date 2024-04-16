@@ -3,14 +3,14 @@
 layout: home
 
 hero:
-  name: 'My Blog Project'
-  text: 'A VitePress Site'
+  name: '技术文档'
+  text: '学习资料记录'
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 系统学习课程
+    details: 系统记录学习中的资料以及比较重要的知识点
+  - title: 开发环境搭建
+    details: 不同开发环境的搭建，应对不同场景
+  - title: 开发工具使用
+    details: 更好应用开发工具，提交效率
 ---
