@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: '技术文档'
-  text: '学习资料记录'
+  name: '全栈人'
+  text: '在线文档'
 
 features:
   - title: 系统学习课程

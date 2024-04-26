@@ -5,10 +5,11 @@ import sidebar from './sidebar.mts'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: '/Blog/',
-  title: '个人博客',
-  description: 'Vitepres构建',
+  title: '全栈人',
+  description: '个人在线文档',
   srcDir: 'docs',
   themeConfig: {
+    logo: '/images/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     search: {
       provider: 'local'
