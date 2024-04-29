@@ -8,8 +8,9 @@ export default defineConfig({
   title: '全栈人',
   description: '个人在线文档',
   srcDir: 'docs',
+  head: [['link', { rel: 'icon', href: '/Blog/favicon.ico' }]],
   themeConfig: {
-    logo: '/images/logo.png',
+    logo: '/logo.png',
     // https://vitepress.dev/reference/default-theme-config
     search: {
       provider: 'local'
