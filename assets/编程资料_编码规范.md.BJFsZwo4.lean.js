@@ -1,0 +1,1 @@
+import{_ as s,c as i,o as a,a4 as n}from"./chunks/framework.Cr5OQ4C0.js";const c=JSON.parse('{"title":"编码规范","description":"","frontmatter":{},"headers":[],"relativePath":"编程资料/编码规范.md","filePath":"编程资料/编码规范.md"}'),l={name:"编程资料/编码规范.md"},h=n("",130),p=[h];function t(k,e,r,d,E,g){return a(),i("div",null,p)}const o=s(l,[["render",t]]);export{c as __pageData,o as default};
